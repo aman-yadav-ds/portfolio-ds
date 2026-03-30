@@ -15,6 +15,16 @@ import Image from 'next/image';
 
 const projects = [
   {
+    title: 'Multi-Agent Assistant',
+    description:
+      'Designed a multi-agent assistant using LLMs to automate complex tasks. Integrated with ChromaDB for vector storage and Long-term Memory management. Used less demanding models locally for small task execution.',
+    image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800',
+    technologies: ['Python', 'PyTorch', 'ChromaDB', 'Multi-Agent Orchestration', 'LLMs', 'LangChain', 'Ollama'],
+    github: 'https://github.com/aman-yadav-ds/friday',
+    demo: 'https://github.com/aman-yadav-ds/friday',
+    impact: 'Automated task management',
+  },
+  {
     title: 'Gun Detection',
     description:
       'Developed a gun detection system using FasterRCNN, achieving 92% accuracy. Deployed on Hugging Face Spaces with Flask and FastAPI for image analysis, enhancing public safety measures.',
@@ -44,16 +54,6 @@ const projects = [
     demo: 'https://huggingface.co/spaces/aman-yadav-ds/depression_prediction',
     impact: 'Mental health awareness',
   },
-  // {
-  //   title: 'Recommendation System',
-  //   description:
-  //     'Implemented a hybrid recommendation engine combining collaborative and content-based filtering. Increased user engagement by 45% and conversion rates by 25%.',
-  //   image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800',
-  //   technologies: ['Python', 'TensorFlow', 'Redis', 'PostgreSQL', 'Docker'],
-  //   github: 'https://github.com',
-  //   demo: 'https://demo.com',
-  //   impact: '45% engagement boost',
-  // },
   // {
   //   title: 'Sentiment Analysis Platform',
   //   description:
